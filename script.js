@@ -5,7 +5,7 @@ let result;
             let tempselector = document.getElementById('select_temp');
             let n = tempselector.options.selectedIndex;
             let selectionis = tempselector.options[n].value;
-            if (selectionis == 'Celcius') {
+            if (selectionis == 'Celsius') {
                 result = ((temp * 1.8) + 32)
                 document.getElementById('myresult').innerHTML = `  ${result.toFixed(3)}  Fahrenheit`
             }
